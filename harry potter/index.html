@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Hogwarts School of Witchcraft and Wizardry</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- MAGIC PARTICLES -->
+    <canvas id="particles"></canvas>
+
+    <!-- CURSOR WAND -->
+    <div id="wand-light"></div>
+
+    <!-- NAVBAR -->
+
+    <nav class="navbar">
+      <div class="logo">✦ Hogwarts School ✦</div>
+
+      <ul>
+        <li><a href="#castle">Castle</a></li>
+        <li><a href="#sorting">Sorting</a></li>
+        <li><a href="#houses">Houses</a></li>
+        <li><a href="#spells">Spells</a></li>
+      </ul>
+    </nav>
+
+    <!-- HERO -->
+
+    <section class="hero" id="castle">
+      <div class="overlay"></div>
+
+      <div class="hero-content">
+        <h3>
+          Hogwarts School
+          <br />
+          of Witchcraft and Wizardry
+        </h3>
+
+        <p>Sebuah sekolah sihir kuno yang berdiri di atas tebing berkabut. Temukan rumahmu, kuasai mantra, dan jelajahi dunia penuh misteri.</p>
+
+        <a href="#sorting" class="hero-btn"> Begin Your Journey </a>
+      </div>
+
+      <div class="moon"></div>
+    </section>
+
+    <!-- GREAT HALL -->
+
+    <section class="hall">
+      <h2>The Great Hall</h2>
+
+      <p>Ribuan lilin melayang menerangi aula besar. Langit-langitnya memantulkan bintang-bintang dan cahaya bulan malam.</p>
+
+      <div class="candles">
+        <div class="candle"></div>
+        <div class="candle"></div>
+        <div class="candle"></div>
+        <div class="candle"></div>
+        <div class="candle"></div>
+        <div class="candle"></div>
+      </div>
+    </section>
+
+    <!-- SORTING -->
+
+    <section id="sorting" class="sorting">
+      <h2>The Sorting Ceremony</h2>
+
+      <p>Klik topi untuk mengetahui rumah yang cocok untukmu.</p>
+
+      <div id="hat">🎩</div>
+
+      <div id="result">Your destiny awaits...</div>
+    </section>
+
+    <!-- HOUSES -->
+
+    <section id="houses">
+      <h2 class="title">The Four Houses</h2>
+
+      <div class="house-grid">
+        <div class="house gryff">
+          <div class="symbol">🦁</div>
+
+          <h3>Gryffindor</h3>
+
+          <p>Keberanian dan tekad.</p>
+        </div>
+
+        <div class="house raven">
+          <div class="symbol">🦅</div>
+
+          <h3>Ravenclaw</h3>
+
+          <p>Kecerdasan dan kreativitas.</p>
+        </div>
+
+        <div class="house huffle">
+          <div class="symbol">🦡</div>
+
+          <h3>Hufflepuff</h3>
+
+          <p>Loyalitas dan kerja keras.</p>
+        </div>
+
+        <div class="house sly">
+          <div class="symbol">🐍</div>
+
+          <h3>Slytherin</h3>
+
+          <p>Ambisi dan strategi.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SPELLS -->
+
+    <section id="spells" class="spells">
+      <h2>Spell Casting Chamber</h2>
+
+      <div id="spell-name">Lumos</div>
+
+      <button id="cast-btn">Cast Spell</button>
+    </section>
+
+    <!-- FOOTER -->
+
+    <footer>
+      <div class="footer-logo">✦ GRAND ACADEMY OF MAGIC ✦</div>
+
+      <p>Magic is found in courage, wisdom, loyalty, and ambition.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
